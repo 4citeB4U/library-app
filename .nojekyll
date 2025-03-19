@@ -1,0 +1,4 @@
+touch dist/.no-jekyll
+git add dist/.nojekyll
+git commit -m "Disable Jekyll for GitHub Pages"
+git push origin main

@@ -1,0 +1,44 @@
+{
+    "name": "leolaslibrary",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "homepage": "https://4citeB4U.github.io/library-app",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "lint": "eslint .",
+        "preview": "vite preview",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
+    },
+    "dependencies": {
+        "@radix-ui/react-slot": "^1.1.2",
+        "@stripe/react-stripe-js": "^3.4.0",
+        "@stripe/stripe-js": "^6.0.0",
+        "clsx": "^2.1.1",
+        "express": "^4.21.2",
+        "framer-motion": "^12.5.0",
+        "idb": "^8.0.2",
+        "lucide-react": "^0.479.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.22.0",
+        "tailwind-merge": "^3.0.2"
+    },
+    "devDependencies": {
+        "@types/node": "^22.13.10",
+        "@types/react": "^18.2.55",
+        "@types/react-dom": "^18.2.19",
+        "@vitejs/plugin-react": "^4.3.4",
+        "autoprefixer": "^10.4.21",
+        "eslint": "^8.57.1",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-react-refresh": "^0.4.5",
+        "gh-pages": "^6.3.0",
+        "postcss": "^8.5.3",
+        "tailwindcss": "^3.4.17",
+        "typescript": "^5.8.2",
+        "vite": "^6.2.2"
+    }
+}
